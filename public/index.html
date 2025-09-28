@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media Categories</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Media Categories</h1>
+
+  <!-- Songs Section -->
+  <div class="category">
+    <h2>Songs</h2>
+    <p>Fetch trending songs from API.</p>
+    <button onclick="fetchSongs()">Get Songs</button>
+    <div id="songs" class="results"></div>
+  </div>
+
+  <!-- Videos Section -->
+  <div class="category">
+    <h2>Videos</h2>
+    <p>Fetch trending videos.</p>
+    <button onclick="fetchVideos()">Get Videos</button>
+    <div id="videos" class="results"></div>
+  </div>
+
+  <!-- Podcasts Section -->
+  <div class="category">
+    <h2>Podcasts</h2>
+    <p>Fetch podcasts from API.</p>
+    <button onclick="fetchPodcasts()">Get Podcasts</button>
+    <div id="podcasts" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
